@@ -1,13 +1,14 @@
 import { useState } from 'react'
-import Navigation from './components/Navigation'
+import Header from './components/Header'
+import Publicaciones from './components/Publicaciones';
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <Navigation></Navigation>
-      
+      <Header />
+      <Publicaciones />
     </>
   )
 }
